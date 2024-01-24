@@ -1,0 +1,29 @@
+:root{
+    --color-primary--: #22cb16;
+    --color-secondary--: #065b83;
+    --color-tertirary--: #292929;
+}
+
+.bg-primary{
+    background-color: var(--color-primary--);
+}
+
+.bg-secondary{
+    background-color: var(--color-secondary--);
+}
+
+.bg-tertiary{
+    background-color: var(--color-tertirary--);
+}
+
+.fg-primary{
+    color: var(--color-primary--);
+}
+
+.fg-secondary{
+    color: var(--color-secondary--);
+}
+
+.fg-tertiary{
+    color: var(--color-tertirary--);
+}
