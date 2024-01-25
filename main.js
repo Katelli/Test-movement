@@ -9,7 +9,7 @@ window.addEventListener("keydown", (event) => {
 
     switch (event.key) {
         case "ArrowRight":
-            if (ball.style.left <"1150"){ 
+            if (ball.style.left <"999 + 151"){ 
                 ball.style.left = `${parseInt(ballLeft) + 50}px`
             }
             break;
